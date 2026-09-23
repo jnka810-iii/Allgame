@@ -1,7 +1,7 @@
 print("Hello, World!")
 
 #ASCII Art of ship
-text=""" git                                 |
+text="""                       |
                               /|\
                              / | \
                             /  |  \
@@ -21,5 +21,14 @@ text=""" git                                 |
 ~~~~~~~~~~~~~~~~~~~~\_______________/~~~~~~~~~~~~~~~~
        ~~~~~~~        ~~~~~~~~        ~~~~~~~
 """
+
+#เพิ่มกรอบล้อมรอบและข้อความเล็ก ๆ
+border = "*" * 50
+messege = "Welcome to the Ship ASCII Art!"
+
+print(border)
 print(text)
+print(messege.center(50))    
+print(border)
+
                  
